@@ -1,0 +1,33 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    background-color: aqua;
+}
+.LHeader{
+    color:rgb(247, 107, 107);
+}
+.HHeader{
+    color: crimson;
+}
+.love{
+    border: 3px silver solid;
+}
+.hate{
+    border: 3px rgb(194, 117, 117) dashed;
+}
+.title{
+    text-align: center;
+}
+.grid-contaner{
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+.grid-item{
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid blue;
+}
